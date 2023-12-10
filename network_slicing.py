@@ -32,25 +32,25 @@ def planRequirements():
     plan = chooseRequirement()
     if (plan == 1):
         print("Enter the bandwidth required between 100Mbps to 500Mbps:")
-        bw = int(input())
+        bw = float(input())
         print("Enter latency requirement between 10-20ms:")
-        latency = int(input())
+        latency = float(input())
         print("Enter number of devices you want to connect between 1 to 5:")
         devices = int(input())
 
     if (plan == 2):
         print("Enter the bandwidth required between 10Mbps to 50Mbps:")
-        bw = int(input())
+        bw = float(input())
         print("Enter latency requirement between 0.5ms to 1ms:")
-        latency = int(input())
+        latency = float(input())
         print("Enter number of devices you want to connect between 5 to 10:")
         devices = int(input())
 
     if (plan == 3):
         print("Enter the bandwidth required between 0.1Mbps to 2Mbps:")
-        bw = int(input())
+        bw = float(input())
         print("Enter latency requirement between 1ms to 30ms:")
-        latency = int(input())
+        latency = float(input())
         print("Enter number of devices you want to connect between 10 to 20:")
         devices = int(input())
 
