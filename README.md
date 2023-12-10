@@ -74,3 +74,8 @@ h1,h2 are in eMBB VN and connected to each other.
 h3,h4 are in URLLC VN and are connected to each other.
 h5 to h20 are in mMTC VN and are connected to each other.
 None of these hosts across different VN are interconnected.
+
+
+### References:
+1. https://networksimulationtools.com/network-slicing-simulation/
+2. https://github.com/jercymat/qualcomm-proj/tree/master
